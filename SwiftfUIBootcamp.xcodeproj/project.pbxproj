@@ -11,6 +11,8 @@
 		AD412D842ADBDB01008A998D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD412D832ADBDB01008A998D /* ContentView.swift */; };
 		AD412D862ADBDB04008A998D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD412D852ADBDB04008A998D /* Assets.xcassets */; };
 		AD412D892ADBDB04008A998D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD412D882ADBDB04008A998D /* Preview Assets.xcassets */; };
+		AD412D902ADBE0ED008A998D /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD412D8F2ADBE0ED008A998D /* TextBootcamp.swift */; };
+		AD412D922ADBE6C6008A998D /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD412D912ADBE6C6008A998D /* ShapesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AD412D832ADBDB01008A998D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD412D852ADBDB04008A998D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD412D882ADBDB04008A998D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD412D8F2ADBE0ED008A998D /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		AD412D912ADBE6C6008A998D /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				AD412D812ADBDB01008A998D /* SwiftfUIBootcampApp.swift */,
 				AD412D832ADBDB01008A998D /* ContentView.swift */,
+				AD412D8F2ADBE0ED008A998D /* TextBootcamp.swift */,
+				AD412D912ADBE6C6008A998D /* ShapesBootcamp.swift */,
 				AD412D852ADBDB04008A998D /* Assets.xcassets */,
 				AD412D872ADBDB04008A998D /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD412D922ADBE6C6008A998D /* ShapesBootcamp.swift in Sources */,
 				AD412D842ADBDB01008A998D /* ContentView.swift in Sources */,
+				AD412D902ADBE0ED008A998D /* TextBootcamp.swift in Sources */,
 				AD412D822ADBDB01008A998D /* SwiftfUIBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 				DEVELOPMENT_TEAM = 2792T2BLVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,7 @@
 				DEVELOPMENT_TEAM = 2792T2BLVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
