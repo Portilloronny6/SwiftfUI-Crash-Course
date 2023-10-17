@@ -25,7 +25,7 @@ struct ShapesBootcamp: View {
 //                dash: [30],
 //                dashPhase: 20
 //            ) )
-            .trim(from: 0.4, to: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+//            .trim(from: 0.4, to: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
 //            .stroke(Color.purple, lineWidth: 50)
             .frame(width: 300, height: 200)
         
